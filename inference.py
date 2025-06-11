@@ -64,7 +64,14 @@ input_len = inputs["input_ids"].shape[-1]
 
 # Use the model to generate a response without computing gradients
 with torch.inference_mode():
-    generation = model.generate(**inputs, max_new_tokens=4096, do_sample=False)
+    generation = model.generate(
+        **inputs,
+        max_new_tokens=4096,
+        do_sample=True,                # 启用采样，temperature/top_p/top_k 才会生效
+        temperature=0.3,               # 控制生成多样性，常用范围 0.1~2.0
+        top_p=0.95,                    # nucleus sampling
+        top_k=50                       # top-k sampling
+    )
     # Remove the prompt part from the generated output
     generation = generation[0][input_len:]
 

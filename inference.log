@@ -1,0 +1,65 @@
+--- (1)
+
+Here's the LaTeX conversion of the equations in the image:
+
+```latex
+\text{For } t \geq 2, \text{ we have} \\
+x_t = \sqrt{ \alpha_t } x_{t-1} + \sqrt{1 - \alpha_t} \mathcal{E}_{t-1} \\
+= \sqrt{ \alpha_t } \left( \sqrt{ \alpha_{t-1} } x_0 + \sqrt{1 - \alpha_{t-1}} \mathcal{E} \right) + \sqrt{1 - \alpha_t} \mathcal{E}_{t-1} \\
+= \sqrt{ \alpha_t } x_0 + \sqrt{ \alpha_t (1 - \alpha_{t-1})} \mathcal{E} + \sqrt{1 - \alpha_t} \mathcal{E}_{t-1}.
+```
+
+**Explanation of the LaTeX:**
+
+*   `\text{}`:  Used to write text within the equation.
+*   `\sqrt{}`:  Represents the square root.
+*   `\alpha_t`: Represents the variable alpha with a subscript t.
+*   `\mathcal{E}`: Represents the calligraphic E, often used for error terms.
+*   `\geq`: Represents the greater than or equal to symbol.
+*   `x_t`, `x_{t-1}`: Variables with subscripts.
+*   `()`: Parentheses for grouping.
+*   `+`: Plus sign.
+*   `=`: Equals sign.
+*   `\\`:  Used to create a new line in the equation.
+
+
+--- (2)
+
+Here's the LaTeX conversion of the equations in the image:
+
+```latex
+\text{For } t \geq 2, \text{ we have} \\
+x_t = \sqrt{ \alpha_t } x_{t-1} + \sqrt{1 - \alpha_t} \mathcal{E}_{t-1} \\
+= \sqrt{ \alpha_t } \left( \sqrt{ \alpha_{t-1} } x_0 + \sqrt{1 - \alpha_{t-1}} \mathcal{E} \right) + \sqrt{1 - \alpha_t} \mathcal{E}_{t-1} \\
+= \sqrt{ \alpha_t } x_0 + \sqrt{ \alpha_t (1 - \alpha_{t-1})} \mathcal{E} + \sqrt{1 - \alpha_t} \mathcal{E}_{t-1}.
+```
+
+**Explanation of the symbols:**
+
+*   `\sqrt{}`: Represents the square root.
+*   `\alpha_t`: Represents the variable alpha with subscript t.
+*   `x_t`: Represents the variable x with subscript t.
+*   `\mathcal{E}`: Represents the calligraphic E, often used to denote a random variable or error term.
+*   `\mathcal{E}_{t-1}`: Represents the calligraphic E with subscript t-1.
+*   `\geq`: Represents the greater than or equal to sign.
+*   `\text{}`: Used to write text within the equation.
+
+--- (3)
+
+Here's the LaTeX conversion of the equations in the image:
+
+```latex
+\text{For } t \geq 2, \text{ we have} \\
+x_t = \sqrt{a_t} x_{t-1} + \sqrt{1 - a_t} \mathcal{E}_{t-1} \\
+= \sqrt{a_t} \left( \sqrt{a_{t-1}} x_0 + \sqrt{1 - a_{t-1}} \mathcal{E} \right) + \sqrt{1 - a_t} \mathcal{E}_{t-1} \\
+= \sqrt{a_t} x_0 + \sqrt{a_t(1 - a_{t-1})} \mathcal{E} + \sqrt{1 - a_t} \mathcal{E}_{t-1}.
+```
+
+**Explanation:**
+
+*   `\text{}` is used for plain text within the equation.
+*   `\sqrt{}` represents the square root.
+*   `a_t`, `x_t`, `\mathcal{E}_{t-1}` are written as subscripts.
+*   `\geq` represents the greater than or equal to symbol.
+*   `\left(` and `\right)` are used to automatically size parentheses.
+*   `\mathcal{E}` represents the calligraphic E.
